@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f7f3ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #444;
+}
+
+.assignment-box {
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+p {
+    /* Set the line height of the paragraph to 1.5 */
+    line-height: 1.5; 
+    font-size: 18px;
+    
+    /* Styles for the example output box appearance */
+    padding: 15px 15px 15px 25px;
+    background-color: #fcf6ef;
+    border: 1px solid #e0d0b9;
+    color: #333;
+}
+
+/* Style the first letter of the paragraph to be larger and bold */
+p::first-letter {
+    font-size: 300%;
+    font-weight: bold;
+    float: left;
+    margin-right: 0.1em; 
+    color: #3e332a;
+    line-height: 1; 
+}
